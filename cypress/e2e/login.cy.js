@@ -67,5 +67,5 @@ describe('Login Page Test Cases', () => {
         });
 
         cy.url().should('eq', 'http://localhost:3000/dashboard');
-    })
+    });
 });
